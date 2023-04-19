@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cb0b02e7d493ed4bbdbbfc453440011, type: 3}
+  m_Name: TreeTest2
+  m_EditorClassIdentifier: 
+  type: 1
+  TreeSprite:
+  - {fileID: 21300000, guid: 1dc19ba46957e034e82ea090c2db9110, type: 3}
+  - {fileID: 21300000, guid: 94d685d6dfbadc24282bcdccc01b2e71, type: 3}
+  - {fileID: 21300000, guid: 6e8973bd35eb71e4eb7f38372cb56147, type: 3}
+  - {fileID: 21300000, guid: 67447f4e4bf934a4f9883aa3a00d7b5a, type: 3}
+  SeedDropRate: 3
+  SeedQuantity: 6
+  SeedCost: 4
+  midAge: 4
+  LastAge: 8
