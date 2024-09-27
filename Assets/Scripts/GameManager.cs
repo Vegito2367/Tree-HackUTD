@@ -74,6 +74,10 @@ public class GameManager : MonoBehaviour
         Seed1Display.text = " " + Seeds1;
         Seed2Display.text = " " + Seeds2;
         Seed3Display.text = " " + Seeds3;
+        foreach (TreeBase item in treeBases)
+        {
+            item.Planted = false;
+        }
     }
 
     private void Update()
