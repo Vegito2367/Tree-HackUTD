@@ -78,6 +78,7 @@ public class GameManager : MonoBehaviour
         {
             item.Planted = false;
         }
+        console.log("Game Started");
     }
 
     private void Update()
